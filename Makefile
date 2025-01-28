@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -Werror -Wpedantic
-CXXTESTFLAGS = --coverage  # For test coverage
-CXXGDB = -ggdb             # For debugging
+CXXTESTFLAGS = --coverage 
+CXXGDB = -ggdb             
 
 all: test
 
